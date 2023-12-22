@@ -1,0 +1,108 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+      .navbar {
+        color: white;
+        font-size: large;
+      }
+      a,
+      .dropdown-item {
+        font-family: sans-serif;
+        font-size: large;
+        color: white;
+      }
+      .navbar-brand,
+      .nav-link {
+        color: white;
+        font-size: 2.2rem;
+        font-family: Georgia, Times, "Times New Roman", serif;
+      }
+      .dropdown-menu {
+        height: 100px;
+        width: 200px;
+        border-radius: 5px;
+        border: solid 1px black;
+      }
+      .dropdown-item:hover {
+        background-color: aquamarine;
+      }
+
+      h1 {
+        color: white;
+      }
+      .navbar-toggler {
+        color: rgb(29, 17, 17);
+      }
+    
+
+      i {
+        font-size: larger;
+      }
+
+      body {
+     
+       background-image: url('/login/hdone.jpg');
+      background-size: cover;
+      height: 100vh;
+    }
+
+      h1 {
+        color: rgb(255, 255, 255);
+        font-size: 900;
+        font-family: Georgia, Times, "Times New Roman", serif;
+        margin: 10px;
+        text-align: center;
+      }
+
+      .btn {
+        margin: 10px;
+        font-family: Georgia, Times, "Times New Roman", serif;
+      }
+    
+      .container {
+        position: relative;
+        background-color: rgb(54, 113, 154);
+        margin-top: 20px;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 70%;
+        box-shadow: -10px 10px 10px rgb(37, 36, 36);
+        text-align: justify;
+      }
+      .card-title {
+        font-family: Georgia, Times, "Times New Roman", serif;
+        color: rgb(0, 0, 0);
+        font-size: 2.2rem;
+      }
+      .card-body {
+        text-align: center;
+       padding: 30px;
+      }
+      .container-login {
+       position: relative;
+        background-color: rgba(0,0,0,0.2);
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+        border: 1px solid rgb(37, 36, 36);
+        
+      }
+      #login {
+        width: 200px;
+        height: 40px;
+        box-shadow: -10px 10px 10px black;
+      }
+      .card{
+      margin: 20px 20px;
+      border: 1px solid black;
+      box-shadow: -10px 10px 10px rgb(69, 52, 52);
+      }
+     .logo{
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+
+     }
